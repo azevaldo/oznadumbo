@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Génie Chimique Génie Des Procédés</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- WOW.js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<style>
+    /* Estilo adicional para a área do vídeo */
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* Proporção 16:9 */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start mb-3">
+                <a href="index.html" class="navbar-brand m-0 p-0">
+                   
+                    <h1 class="text-primary m-0">Génie Chimique Génie Des Procédés</h1>
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                    <p class="m-0">48 rue d’Odtende, 02100 Saint-Quentin, France
+                    </p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <p class="m-0">secretariat-gcgp@u-picardie.fr
+                    </p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="index.html" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0">Génie Chimique Génie Des Procédés</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <a href="index.html" class="nav-item nav-link active">Accueil</a>
+                    <a href="about.html" class="nav-item nav-link">À propos</a>
+                    <a href="service.html" class="nav-item nav-link">Nos parcours</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pratiques</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="pratica1.html" class="dropdown-item">Osmose Inverse </a>
+                            <a href="pratica2.html" class="dropdown-item">Réacteur thermostaté </a>
+    
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="team.html" class="nav-item nav-link">Galerie</a>
+                </div>
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
+                        <i class="fa fa-phone-alt text-primary"></i>
+                    </div>
+                    <div class="ms-3">
+                        <p class="mb-1 text-white">GCGP</p>
+                        <h5 class="m-0 text-secondary">+33 3 23 50 36 91</h5>
+                    </div>
+                </div>
+            </div>
+            
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/i3.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">BUT Génie Chimique, Génie des Procédés</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Une formation d'excellence en ingénierie des procédés</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">
+                                    Le BUT GCGP forme des techniciens supérieurs spécialisés dans la conception et l’optimisation des procédés industriels. 
+                                    Cette formation permet d’acquérir des compétences en transformation de la matière et de l’énergie par des méthodes physiques, chimiques et biologiques.
+                                </p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">En savoir plus</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Demande d'information</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+
+
+
+
+
+
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/i36.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">En savoir plus</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Demande d'information</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/i3.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/i4.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/i5.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/i4.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/atuali/i9.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/atuali/i17.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/atuali/i18.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/atuali/i24.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/atuali/i25.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/atuali/i30.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/formacao/atuali/i38.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid w-100 h-100" src="img/rodar/i38.jpg" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
+                        <h5 class="text-truncate me-3 mb-0">Ateliers</h5>
+                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid w-100 h-100" src="img/rodar/i31.jpg" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
+                        <h5 class="text-truncate me-3 mb-0">Équipements de haute qualité</h5>
+                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid w-100 h-100" src="img/rodar/i9.jpg" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
+                        <h5 class="text-truncate me-3 mb-0">Étudiants dévoués</h5>
+                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Objectifs de la Formation</h6>
+                    <h1 class="mb-4">BUT GCGP : Génie Chimique, Génie des Procédés</h1>
+                    <p class="mb-4" style="text-align: justify;text-indent: 20px;">
+                        Le BUT GCGP est une formation nationale de niveau 6 (bac +3) qui apporte des compétences en conception, mise en œuvre et optimisation des procédés industriels. 
+                        Il prépare les étudiants à travailler dans divers secteurs tels que la chimie, la pétrochimie, la pharmacie, l'agroalimentaire et le traitement des déchets. 
+                        Les étudiants choisissent en 2e année parmi trois parcours spécialisés, allant de la conception des procédés à la gestion et l'optimisation des productions.
+                    </p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Conception et innovation technologique</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Contrôle, pilotage et optimisation des procédés</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Contrôle, qualité, environnement et sécurité des procédés</p>
+                    <div class="mt-4">
+                        <a href="about.html" class="btn btn-primary py-md-3 px-md-5">Voir plus</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-4" style="min-height: 500px;">
+                    <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.5s">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/formacao/i1.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="Formation BUT GCGP">
+                        <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/formacao/i9.jpg" style="object-fit: cover;" alt="Industrie et procédés">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- About End -->
+
+
+    <!-- Faits Start -->
+<div class="container-fluid fact bg-dark my-5 py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                <i class="fa fa-chalkboard-teacher fa-2x text-white mb-3"></i>
+                <h2 class="text-white mb-2" data-toggle="counter-up">50</h2>
+                <p class="text-white mb-0">Professeurs qualifiés</p>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                <i class="fa fa-user-graduate fa-2x text-white mb-3"></i>
+                <h2 class="text-white mb-2" data-toggle="counter-up">1200</h2>
+                <p class="text-white mb-0">Étudiants inscrits</p>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                <i class="fa fa-book fa-2x text-white mb-3"></i>
+                <h2 class="text-white mb-2" data-toggle="counter-up">30</h2>
+                <p class="text-white mb-0">Disciplines enseignées</p>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                <i class="fa fa-award fa-2x text-white mb-3"></i>
+                <h2 class="text-white mb-2" data-toggle="counter-up">25</h2>
+                <p class="text-white mb-0">Années d'expérience</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Faits End -->
+
+
+
+ <!-- Service Start -->
+<div class="container-fluid py-5 px-4 px-lg-0">
+    <div class="row g-0">
+        <div class="col-lg-3 d-none d-lg-flex">
+            <div class="d-flex align-items-center justify-content-center bg-primary w-100 h-100">
+                <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);">Nos parcours</h1>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-9">
+            <div class="ms-lg-5 ps-lg-5">
+                <div class="text-center text-lg-start wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Nos parcours</h6>
+                    <h1 class="mb-5">Choisissez votre spécialisation</h1>
+                </div>
+                <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-light p-4">
+                        <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                            <i class="fa fa-flask fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Conception des procédés et innovation technologique</h4>
+                        <p>Développer des compétences en conception et en mise en œuvre de procédés innovants dans l'industrie chimique et énergétique.</p>
+                        <a href="" class="btn bg-white text-primary w-100 mt-2">En savoir plus<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                    </div>
+                    <div class="bg-light p-4">
+                        <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                            <i class="fa fa-cogs fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Contrôle, pilotage et optimisation des procédés</h4>
+                        <p>Maîtriser la conduite et l'optimisation d'ateliers de production automatisés pour assurer une qualité optimale des produits.</p>
+                        <a href="" class="btn bg-white text-primary w-100 mt-2">En savoir plus<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                    </div>
+                    <div class="bg-light p-4">
+                        <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                            <i class="fa fa-shield-alt fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Contrôle, qualité, environnement et sécurité des procédés</h4>
+                        <p>Acquérir des compétences pour assurer la qualité, la sécurité et le respect des normes environnementales dans les procédés industriels.</p>
+                        <a href="" class="btn bg-white text-primary w-100 mt-2">En savoir plus<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+
+
+    <!-- Booking Start -->
+    <div class="container-fluid my-5 px-0">
+       
+        
+ <!-- Conteneur vidéo -->
+<div class="video wow fadeInUp" data-wow-delay="0.1s">
+    <!-- Bouton pour ouvrir le modal -->
+    <div class="video-thumbnail" style="background-image: url('img/formacao/capa-do-video.jpg');">
+        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="img/formacao/ozna.mp4" data-bs-target="#videoModal">
+            <span></span>
+        </button>
+    </div>
+
+    <!-- Modal pour afficher la vidéo -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel">Vidéo locale</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Ratio 16:9 pour la vidéo -->
+                    <div class="ratio ratio-16x9">
+                        <!-- La vidéo sera chargée dynamiquement -->
+                        <video id="video" class="embed-responsive-item" controls>
+                            <source src="" type="video/mp4">
+                            Votre navigateur ne prend pas en charge l'élément vidéo.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="text-white mb-4">Reproduisez la vidéo</h1>
+    <h3 class="text-white mb-0">Cliquez sur le bouton pour regarder la vidéo locale.</h3>
+</div>
+
+        
+        <div class="container position-relative wow fadeInUp" data-wow-delay="0.1s" style="margin-top: -6rem;">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="bg-light text-center p-5">
+                        <h1 class="mb-4">Contactez-nous</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Votre Nom" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Votre Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Choisissez un service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Date du service" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Demande spéciale"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Envoyer</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <!-- Booking End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Nos Employés</h6>
+                <h1 class="mb-5">Notre Équipe d'Experts</h1>
+                
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/formacao/prof.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Mouna CHKIR</h5>
+                                <small>Chef du département GCGP- IUT de L’Aisne</small>
+                            </div>
+                            <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/formacao/prof2.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Sebastien MARCEAUX</h5>
+                                <small>echnicien - IUT de l’Aisne</small>
+                            </div>
+                            <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/formacao/prof3.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Pauline BOISSARD</h5>
+                                <small> Secrétaire GCGP- IUT de l’Aisne</small>
+                            </div>
+                            <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">Témoignages</h6>
+                <h1 class="mb-5">Ce que disent nos employés et étudiants !</h1>
+                
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">Actuellement en 2e année de BUT génie chimique génie des procédés je trouve que c’est une formation enrichissante et très polyvalent qui propose beaucoup de débouchés après les 3 ans de formation, puis il y a aussi une très bonne entente avec les professeurs et les autres élèves du BUT.</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/formacao/est1.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Maxime RAJENEKHANTE, BUT2</h5>
+                    <p class="m-0">Étudiant</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">Je suis étudiant en première année au GCGP, mais je trouve les cours accessibles et compréhensibles, la compréhension générale entre les étudiants et même avec les enseignants et le personnel est bonne. Les cours sont enrichissants et l’expérience a été très agréable jusqu’à présent.</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/formacao/est2.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Clément HAUTCOEUR, BUT1</h5>
+                    <p class="m-0">Étudiant</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0"> J’ai rejoint l’équipe du département GCGP à l’IUT de l’Aisne depuis 14 ans comme maître de conférences. Je fais des enseignements variés en génie chimique, en génie des  procédés et en environnement. A côté de ces enseignements, j’ai pris en charge les missions de directrice des études pendant 6 années avant de prendre la direction du département en 2022.</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/formacao/prof.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Mouna CHKIR</h5>
+                    <p class="m-0">Chef du département GCGP- IUT de L’Aisne</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0"> J'ai suivi ma formation au GCGP entre 1997 et 2000 et à partir de 2000 j'ai commencé mon rôle de technicien au niveau du département. Mes fonctions comprennent : la préparation de travaux pratiques en chimie et procédés ; établissement des bons de commande départementaux ; agent de prévention des risques et de retraitement et de valorisation des déchets. </p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/formacao/prof2.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Sebastien MARCEAUX</h5>
+                    <p class="m-0">Technicien - IUT de l’Aisne</p>
+                </div>
+
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0"> Secrétaire département GCGP depuis mai 2021
+                            Suivi des inscriptions, gestion des pièces administratives, saisie des bons de commande, saisie des notes des étudiants, editions des relevés de notes, saisie des heures des professeurs, validation des conventions de stage 
+                            Formation très enrichissante dans une structure à taille humaine ce qui permet d’être à l écoute des besoins de chacun. </p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/formacao/prof3.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Pauline BOISSARD</h5>
+                    <p class="m-0">Secrétaire GCGP- IUT de l’Aisne</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>48 rue d’Odtende, 02100 Saint-Quentin, France</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+33 3 23 50 36 91
+                    </p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>secretariat-gcgp@u-picardie.fr
+                    </p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Heures d'ouverture</h4>
+                    <h6 class="text-light">Lundi - Vendredi :</h6>
+                    <p class="mb-4">07h00 - 21h00</p>
+                    <h6 class="text-light">Samedi - Dimanche :</h6>
+                    <p class="mb-0">07h00 - 19h00</p>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Nos parcours</h4>
+                    <a class="btn btn-link" href="">Conception des procédés et innovation technologique</a>
+                    <a class="btn btn-link" href="">Contrôle, pilotage et optimisation des procédés</a>
+                    <a class="btn btn-link" href="">Contrôle, qualité, environnement et sécurité des procédés</a>
+                  
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'inscrire</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Génie Chimique Génie des Procédés</a>, Tous droits réservés.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Conçu par Ozna Dumbo
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+<!-- WOW.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var videoModal = document.getElementById('videoModal');
+        var video = document.getElementById('video');
+    
+        videoModal.addEventListener('show.bs.modal', function (event) {
+            var button = event.relatedTarget; 
+            var videoSrc = button.getAttribute('data-src'); 
+    
+            video.src = videoSrc + "?autoplay=1&modestbranding=1&rel=0";
+        });
+    
+        videoModal.addEventListener('hidden.bs.modal', function () {
+            video.src = ""; // Para parar o vídeo ao fechar o modal
+        });
+    });
+    </script>
+    
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        // Script para carregar o vídeo no modal
+        var videoModal = document.getElementById('videoModal');
+        videoModal.addEventListener('show.bs.modal', function (event) {
+            // Pega o botão que abriu o modal
+            var button = event.relatedTarget;
+            // Extrai o valor do atributo 'data-src'
+            var videoSrc = button.getAttribute('data-src');
+            // Encontra o iframe de vídeo no modal
+            var video = document.getElementById('video');
+            // Atualiza o atributo 'src' do vídeo para o URL desejado
+            video.src = videoSrc;
+        });
+    
+        // Script para limpar o vídeo quando o modal for fechado
+        var videoModalClose = document.getElementById('videoModal');
+        videoModalClose.addEventListener('hidden.bs.modal', function (event) {
+            var video = document.getElementById('video');
+            video.src = "";
+        });
+    </script>
+</body>
+
+</html>
